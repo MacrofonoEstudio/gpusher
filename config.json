@@ -1,5 +1,5 @@
 {
-    "webPort": 8000,
+    "webPort": 80,
 
     "mongodbUrl": "mongodb://heroku_app34760776:sqddlfru136kp7r4rc2tqkr4v8@ds033477.mongolab.com:33477/heroku_app34760776",
 
