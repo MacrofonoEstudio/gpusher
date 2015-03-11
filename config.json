@@ -1,0 +1,24 @@
+{
+    "webPort": 8000,
+
+    "mongodbUrl": "mongodb://heroku_app34760776:sqddlfru136kp7r4rc2tqkr4v8@ds033477.mongolab.com:33477/heroku_app34760776",
+
+    "gcm": {
+        "apiKey": "AIzaSyDjIXWhWVOWESfcgnu1gvM6hf9Kf_X7emg"
+    },
+
+    "apn": {
+        "connection": {
+            "gateway": "gateway.sandbox.push.apple.com",
+            "cert": "/path/to/cert.pem",
+            "key": "/path/to/key.pem"
+        },
+        "feedback": {
+            "address": "feedback.sandbox.push.apple.com",
+            "cert": "/path/to/cert.pem",
+            "key": "/path/to/key.pem",
+            "interval": 43200,
+            "batchFeedback": true
+        }
+    }
+}
